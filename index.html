@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta ++onload=""charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <!--Costom styles-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+
+
+    <!--JQuery CDN-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <title>I4d Infotech</title>
+    <style media="screen"></style>
+  </head>
+  <body >
+    <div class="container-fluid my-header bg-light" target="_parent">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+          <a class="navbar-brand" href="index.html"><span id="logo-style" class="ml">I4D infotech</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="induDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Industries
+                </a>
+                <div class="dropdown-menu" aria-labelledby="industriesDropdown">
+                  <a class="dropdown-item" href="#">Banking &amp; Financial</a>
+                  <a class="dropdown-item" href="#">Energy</a>
+                  <a class="dropdown-item" href="#">Healthcare</a>
+                  <a class="dropdown-item" href="#">Telecommunications</a>
+                  <a class="dropdown-item" href="#">Retails</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+                </a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <a class="dropdown-item" href="#">IT Consulting</a>
+                  <a class="dropdown-item" href="#">Application Development</a>
+                  <a class="dropdown-item" href="#trainings">Trainings</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Solutions
+                </a>
+                <div class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                  <a class="dropdown-item" href="#">Web Development</a>
+                  <a class="dropdown-item" href="#">Software QA &amp; Testing</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="trainingsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Trainings
+                </a>
+                <div class="dropdown-menu" aria-labelledby="trainingsDropdown">
+                  <a class="dropdown-item" href="#">Front End Technologies</a>
+                  <a class="dropdown-item" href="#">PHP</a>
+                  <a class="dropdown-item" href="#">Testing Trainings</a>
+                  <a class="dropdown-item" href="#">Resume Building</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+           <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+          </div>
+        </nav>
+      
+      </div>
+<!--Bootstrap carousel-->
+            <!--  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+                <div class="carousel-inner" >
+                  <div class="carousel-item active bg-primary" >
+                    <img class="d-block w-100" src="images/slide1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item bg-primary">
+                    <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item bg-primary" >
+      <img class="d-block w-100" src="images/slide3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>-->
+  <main class="container-fluid">
+<!--Slides-->
+    <div class="container-fluid">
+      <section class="carousel-class m">
+        <div  id="carousel-style">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner  bg-primary">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/template-design.jpg" class="image-style" width="100%" height="400px" alt="Coustom Template Design">
+                <div class="container">
+                    <div class="carousel-caption text-success">
+                        <h1>One more for good measure.</h1>
+                        <p>Another example headline.</p>
+                        <p><a class="btn btn-success" href="#" role="button">Sign Up</a></p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/slide2.jpg" width="100%" height="400px" class="image-style" alt="Web Application Development">
+                <div class="container">
+                    <div class="carousel-caption text-danger">
+                        <h1>One more for good measure.</h1>
+                        <p>Another example headline.</p>
+                        <p><a class="btn btn-danger" href="#" role="button">Sign Up</a></p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/slide3.png" width="100%" height="400px" class="image-style" alt="QA(Quality Assurance) Training">
+                <div class="container ">
+                    <div class="carousel-caption text-warning">
+                        <h1>One more for good measure.</h1>
+                        <p>Another example headline.</p>
+                        <p><a class="btn btn-warning" href="#" role="button">Sign Up</a></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+     </div> 
+     <!--About us-->
+     <div class="container text-center mt">
+       
+       <div class="jumbotron">
+          <h2 id="about">About us</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nesciunt adipisci aperiam soluta harum quidem autem provident fugiat ipsam atque, repudiandae recusandae id minima quod aut voluptas in perspiciatis minus?</p>
+       </div>
+       <div class="client-section">
+       <h3>Clients</h3>
+       <div id="client">
+         <ul>
+          <li><a href="http://amajon.com" target="_blank"><i class="fab fa-amazon fa-3x"></i></a></li>
+          <li><a href="http://apple.com" target="_blank"><i class="fab fa-apple fa-3x"></i></a></li>
+          <li><a href="http://ebay.com" target="_blank"><i class="fab fa-ebay fa-3x"></i></a></li>
+            <li><a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
+              <li><a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
+                <li><a href="http://google.com" target="_blank"><i class="fab fa-google fa-3x"></i></a></li>
+                  <li><a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+                    <li><a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></li>
+                      <li><a href="http:youtube.com" target="_blank"><i class="fab fa-youtube fa-3x"></i></a></li>
+          </ul>
+       </div>
+       </div>
+       <div class="lang-section">
+         <h3 class="m2">Web development Languages &amp; Its popularity</h3>
+         <div class="text-center" id="chart">
+            <div id="piechart" style="width: 900px; height: 500px;"></div> 
+         </div>
+       </div>
+     </div>
+<!--Bootstrap Cards-->
+    <div class="container text-center">
+      <h2 class="m2">Our Specialization</h2>
+      <section class="card-class m-1 px-0">
+        <div class="card-style">
+          <div class="card-deck">
+            <div class="card col-md-4">
+              <img class="card-img-top" src="images/services.png" width="200" height="200" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Services</h5>
+                <p class="card-text p-text">We find right talent, and place them with leading IT companies in contract, contract-to-hire and direct-hire positions. Our consultants are experienced, well trained, and dedicated to your growth and success. i4D infotech deliver pople who fit your requirements and needs.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#services"><small class="text-muted">learn more..</small></a>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <img class="card-img-top" src="images/solutions.gif" width="200" height="200" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Solutions</h5>
+                <p class="card-text p-text">We provide cutting edge content management, web development, big data analytics, customer relation managment, database, network and Microsoft solutions to prepare for tomorrow while ensuring quality first with rigorous quality assurance analysis and planning.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#solutions"><small class="text-muted">learn more..</small></a>
+              </div>
+            </div>
+            <div class="card col-md-4">
+              <img class="card-img-top" src="images/training.jpg" width="150" height="200" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Trainings</h5>
+                <p class="card-text p-text">At i4D infotech, with well-experienced faculty, using modern and innovative teaching techniques we provide IT training programs to enhance skills of our employees. We provide both on-site and online instructor-led, computer-based, case studies, and interactive trainings.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#trainings"><small class="text-muted">learn more</small></a>
+              </div>
+            </div>
+          </div>
+        </div>      
+      </section>
+    </div>
+<!--contact Section-->
+    <div class="container"  id="contact">
+      <div class="row">
+        <section class="my-form col-md-6" >
+         <h2>Contact Us</h2>
+         <form>
+          <div class="form-group my-form-field">
+            <label for="fullname">Full name</label>
+            <input type="text" class="form-control" id="fullname" placeholder="John Doe">
+            <p id="e-name">Please fill-out the field.</p>
+          </div>
+          <div class="form-group my-form-field">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" name="email" id="for-email" placeholder="name@example.com">
+            <p id="e-email">Please fill-out the field.</p>
+          </div>
+          <div class="form-group my-form-field">
+            <label for="subject">Subject</label>
+            <textarea class="form-control" id="subject" rows="1"></textarea>
+            <p id="e-subject">Please fill-out the field.</p>
+          </div>
+          <div class="form-group my-form-field">
+            <label for="textarea">Comment</label>
+            <textarea class="form-control" id="textarea" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary" id="submitButton" name="submit" value="Send message">
+          </div>
+        </form>
+      </section>
+    
+      <!--Google maps-->
+      <section class="map col-md-6">
+          <h2>We are here</h2>
+          <div id="map-container">
+             
+          </div>
+          <div id="address">
+            <address>
+              <h3>Address:</h3>
+              <p>Somerset, New Jersey.</p>
+            </address>
+          </div>
+          <div class="container well ">
+              <ul id="social" >
+              <li >
+                <a href="http://www.facebook.com"><i class="fab fa-facebook fa-3x"></i></a>
+              </li>
+              <li>
+              <a href="http://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a>
+              </li>
+                <li>
+                    <a href="http://www.twitter.com"><i class="fab fa-twitter fa-3x"></i></a>
+                </li>
+                  <li>
+                     <a href="http://www.google.com"> <i class="fab fa-google-plus fa-3x"></i>
+                  </li>
+                    <li>
+                       <a href="http://www.youtube.com"> <i class="fab fa-youtube fa-3x"></i></a>
+                    </li>
+                  </ul>    
+      
+            </div>
+          </section>
+
+      </div>
+    </div>
+    <!--Social Media...-->
+    
+      </main>
+<!--Footer-->
+<div class="container-fluid">
+      <footer class="bg-light footer">
+        <p class="text-muted">&copy; Copyrights Received from 2018.</p>
+      </footer>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://maps.google.com/maps/api/js" ></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>    
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+  </body>
+</html>
